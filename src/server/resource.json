@@ -4,28 +4,28 @@
         "icon": "./images/menu/icon.svg",
         "site": [
             {
-                "name": "百度搜索",
+                "name": "Baidu",
                 "description": "最好用的中文搜索引擎。",
                 "url": "https://www.baidu.com",
-                "image": "./images/site/iconpark.jpg"
+                "image": "./images/site/baidu.png"
             },
             {
                 "name": "Bing",
                 "description": "微软出品，必属精品。",
                 "url": "https://www.bing.com",
-                "image": "./images/site/iconpark.jpg"
+                "image": "./images/site/bing.png"
             },
             {
                 "name": "Google",
                 "description": "最好用的搜索引擎。",
                 "url": "https://www.google.com",
-                "image": "./images/site/iconpark.jpg"
+                "image": "./images/site/google.png"
             },
             {
                 "name": "Yandex",
                 "description": "来自俄罗斯的搜索引擎。",
                 "url": "https://www.yandex.com",
-                "image": "./images/site/iconpark.jpg"
+                "image": "./images/site/yandex.png"
             }
         ]
     },
@@ -68,6 +68,60 @@
                 "description": "免费4K壁纸。",
                 "url": "https://wall.alphacoders.com/",
                 "image": "./images/site/iconpark.jpg"
+            },
+            {
+                "name": "Unsplash",
+                "description": "高质量摄影壁纸。",
+                "url": "https://unsplash.com/",
+                "image": "./images/site/iconpark.jpg"
+            },
+            {
+                "name": "Pexels",
+                "description": "免费图片和视频。",
+                "url": "https://www.pexels.com/",
+                "image": "./images/site/iconpark.jpg"
+            }
+        ]
+    },
+    {
+        "name": "开发者平台与服务",
+        "icon": "./images/menu/icon.svg",
+        "site": [
+            {
+                "name": "Github",
+                "description": "代码仓库与项目托管。",
+                "url": "https://github.com/",
+                "image": "./images/site/iconpark.jpg"
+            },
+            {
+                "name": "Gitee",
+                "description": "国内开源代码托管平台。",
+                "url": "https://gitee.com/",
+                "image": "./images/site/iconpark.jpg"
+            }
+        ]
+    },
+    {
+        "name": "在线工具",
+        "icon": "./images/menu/icon.svg",
+        "site": [
+            {
+                "name": "66字体网",
+                "description": "在线公益免费艺术字体。",
+                "url": "http://www.ziti66.com/",
+                "image": "./images/site/ziti66.png"
+            }
+        ]
+    },
+    {
+        "name": "资源",
+        "icon": "./images/menu/icon.svg",
+        "site": [
+            {
+                "name": "icon-icons",
+                "description": "自由图标获取网站。",
+                "url": "https://icon-icons.com/",
+                "image": "./images/site/icon-icons.svg"
             }
         ]
     },
@@ -79,6 +133,18 @@
                 "name": "个人博客",
                 "description": "我的个人博客。",
                 "url": "https://blog.cxhap.top",
+                "image": "./images/site/iconpark.jpg"
+            },
+            {
+                "name": "个人网盘",
+                "description": "我的alist网盘。",
+                "url": "http://ssh.cxhap.top:25611",
+                "image": "./images/site/iconpark.jpg"
+            },
+            {
+                "name": "HomeAssistant",
+                "description": "我的HomeAssistant。",
+                "url": "http://ssh.cxhap.top:8123",
                 "image": "./images/site/iconpark.jpg"
             }
         ]

@@ -1,10 +1,11 @@
-import {resource, ResourceItem} from "src/server";
-import {Box, HStack, VStack, Text, Image, useToast, Link} from "@chakra-ui/react";
+import { resource, ResourceItem } from "src/server";
+import { Box, HStack, VStack, Text, Image, useToast, Link } from "@chakra-ui/react";
 import ResourcePanel from "./resourcePanel";
-import {RounderBox, H2} from "src/components/primitives"
-import React, {useEffect, useState} from "react";
-import {myCollectionTableName, getDb, isSupportIndexDB} from "src/util/indexDB";
+import { RounderBox, H2 } from "src/components/primitives"
+import React, { useEffect, useState } from "react";
+import { myCollectionTableName, getDb, isSupportIndexDB } from "src/util/indexDB";
 import AddResourceDrawer from "./addResourceDrawer";
+import SearchBar from "./SearchBar";
 
 export const MyCollectionContext = React.createContext<{
     setMyCollection: React.Dispatch<React.SetStateAction<ResourceItem[]>>
@@ -14,24 +15,52 @@ export const MyCollectionContext = React.createContext<{
 
 const Content = () => {
     const [myCollection, setMyCollection] = useState<ResourceItem[]>([]);
+    const [filteredCollection, setFilteredCollection] = useState<ResourceItem[]>([]);
     const [addResourceModalOpen, setAddResourceModalOpen] = useState<boolean>(false);
     const toast = useToast();
 
     const updateMyCollection = () => {
         if (isSupportIndexDB()) {
             getDb().then((db) => {
-                db.readAll(myCollectionTableName).then((res => {
+                db.readAll(myCollectionTableName).then((res) => {
                     if (res) {
-                        setMyCollection(res as ResourceItem[]);
+                        setMyCollection(res as ResourceItem[]); // 更新原始数据
+                        if (filteredCollection.length === 0) { // 仅在初始加载时同步
+                            setFilteredCollection(res as ResourceItem[]);
+                        }
                     }
-                }));
+                });
             });
         }
     };
+    
 
     useEffect(() => {
         updateMyCollection();
     }, []);
+
+    useEffect(() => {
+        console.log("Filtered Collection Updated:", filteredCollection);
+    }, [filteredCollection]);
+    
+
+    const handleLocalSearch = (query: string) => {
+        setFilteredCollection(
+            myCollection.filter((item) =>
+                item.name.toLowerCase().includes(query.toLowerCase())
+            )
+        );
+    };
+    
+    
+
+    const handleExternalSearch = (query: string, engine: "bing" | "google") => {
+        const searchUrl =
+            engine === "bing"
+                ? `https://www.bing.com/search?q=${encodeURIComponent(query)}`
+                : `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+        window.open(searchUrl, "_blank");
+    };
 
     const my = {
         name: "我的",
@@ -81,7 +110,7 @@ const Content = () => {
     };
 
     const exportMyCollectionToLocal = () => {
-        var blob = new Blob([JSON.stringify([myCollection], null, 2)], {type: "application/json;charset=utf-8"}).slice(2, -1);
+        var blob = new Blob([JSON.stringify([myCollection], null, 2)], { type: "application/json;charset=utf-8" }).slice(2, -1);
         var url = URL.createObjectURL(blob);
         var elem = document.createElement("a");
         elem.href = url;
@@ -90,7 +119,7 @@ const Content = () => {
     };
 
     return (
-        <MyCollectionContext.Provider value={{setMyCollection}}>
+        <MyCollectionContext.Provider value={{ setMyCollection }}>
             <VStack
                 bgColor="var(--main-bg-color)"
                 alignItems="stretch"
@@ -98,10 +127,15 @@ const Content = () => {
                 display="inline-flex"
                 pos="relative"
             >
+                {/* SearchBar Component */}
+                <SearchBar
+                    onLocalSearch={handleLocalSearch}
+                    onExternalSearch={handleExternalSearch}
+                />
                 <HStack
                     pos="absolute"
                     right="10px"
-                    top="10px"
+                    top="70px"
                 >
                     <Image
                         src="./add.svg"
@@ -125,6 +159,7 @@ const Content = () => {
                         onClick={exportMyCollectionToLocal}
                     />
                 </HStack>
+                {/* Resource Panels */}
                 <ResourcePanel
                     key={my.name}
                     resource={my}
@@ -135,6 +170,7 @@ const Content = () => {
                 {
                     resource.map((item) => (<ResourcePanel key={item.name} myCollection={myCollection} resource={item} hasDeleteBtn={false} hasCollectBtn />))
                 }
+
                 {/* <VStack
                     height="calc(100vh - 250px)"
                 >
