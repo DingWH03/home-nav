@@ -1,0 +1,770 @@
+[
+    {
+        "name": "Icon",
+        "icon": "./images/menu/icon.svg",
+        "site": [
+            {
+                "name": "IconPark",
+                "description": "免费，规范、统一、多风格切换",
+                "url": "https://iconpark.oceanengine.com/home",
+                "image": "./images/site/iconpark.jpg"
+            },
+            {
+                "name": "Iconfont",
+                "description": "免费，中文，图标数量丰富，包含插画资源",
+                "url": "https://www.iconfont.cn",
+                "image": "./images/site/iconfont.png"
+            },
+            {
+                "name": "Ikonate",
+                "description": "免费，样式统一，可调大小、粗细、颜色等参数",
+                "url": "https://ikonate.com",
+                "image": "./images/site/ikonate.jpg"
+            },
+            {
+                "name": "Remix Icon",
+                "description": "免费，精致统一的开源图标",
+                "url": "https://remixicon.com",
+                "image": "./images/site/remix.jpg"
+            },
+            {
+                "name": "Iconscout",
+                "description": "精美丰富，包含很多冷门类型",
+                "url": "https://iconscout.com",
+                "image": "./images/site/iconscout.jpg"
+            },
+            {
+                "name": "ICONS8",
+                "description": "多风格",
+                "url": "https://icons8.com",
+                "image": "./images/site/icons8.jpg"
+            },
+            {
+                "name": "ICONFINDER",
+                "description": "类型丰富的图标库",
+                "url": "https://www.iconfinder.com",
+                "image": "./images/site/iconfinder.jpg"
+            },
+	    {
+                "name": "Iconoir",
+                "description": "免费，线性图标",
+                "url": "https://iconoir.com/",
+                "image": "./images/site/iconoir.svg"
+            },
+	    {
+                "name": "Tabler Icons",
+                "description": "免费，可在线调节颜色、尺寸",
+                "url": "https://tablericons.com/",
+                "image": ""
+            },
+            {
+                "name": "Emoji XD",
+                "description": "线上Emoji百科全书，支持关键词搜索",
+                "url": "https://emojixd.com",
+                "image": "./images/site/emojixd.jpg"
+            },
+            {
+                "name": "seeklogo",
+                "description": "500000+ 个品牌 logo 图片，包含 png 和矢量格式",
+                "url": "https://seeklogo.com",
+                "image": "./images/site/seeklogo.png"
+            },
+	    {
+                "name": "LOGONEWS",
+                "description": "专注LOGO新闻和品牌设计咨询报道",
+                "url": "https://www.logonews.cn",
+                "image": "./images/site/logonews.png"
+            },
+	    {
+                "name": "Logo Design Love",
+                "description": "关于LOGO设计的资料、书籍",
+                "url": "https://www.logodesignlove.com",
+                "image": "./images/site/logodesignlove.png"
+            },
+	    {
+                "name": "Branding Style Guides",
+                "description": "品牌视觉设计指南",
+                "url": "https://brandingstyleguides.com",
+                "image": "./images/site/branding-style-guides.svg"
+            },
+	    {
+                "name": "Logobook",
+                "description": "以字母、数字、形状、物体、自然、行业分类的黑白LOGO",
+                "url": "http://www.logobook.com",
+                "image": ""
+            },
+	    {
+                "name": "Fey's logo database",
+                "description": "按字母排序的LOGO资源",
+                "url": "https://www.fey.com/logos",
+                "image": ""
+            },
+	    {
+                "name": "Logoipsum",
+                "description": "多种风格的LOGO占位符",
+                "url": "https://logoipsum.com",
+                "image": "./images/site/logoipsum.svg"
+            },
+            {
+                "name": "macOS Icon Gallery",
+                "description": "Mac 应用图标库",
+                "url": "https://www.macosicongallery.com/",
+                "image": "./images/site/icon-gallery.png"
+            },
+            {
+                "name": "Lordicon",
+                "description": "动画图标库",
+                "url": "https://lordicon.com/",
+                "image": "./images/site/lordicon.png"
+            }
+        ]
+    },
+    {
+        "name": "插画",
+        "icon": "./images/menu/illustration.svg",
+        "site": [
+            {
+                "name": "unDraw",
+                "description": "免费，矢量插画，可在线调节颜色",
+                "url": "https://undraw.co/illustrations",
+                "image": "./images/site/undraw.jpg"
+            },
+            {
+                "name": "Blush",
+                "description": "色彩鲜明的插画，有 figma 和 sketch 插件",
+                "url": "https://blush.design/zh-CN",
+                "image": "./images/site/blush.jpg"
+            },
+            {
+                "name": "Free Illustrations",
+                "description": "免费高质量矢量插画资源",
+                "url": "https://sketchvalley.com/",
+                "image": "./images/site/sv.jpg"
+            },
+            {
+                "name": "Illustrationx",
+                "description": "国外的插画平台，世界各地插画师的作品",
+                "url": "https://www.illustrationx.com",
+                "image": "./images/site/illustrationx.jpg"
+            },
+            {
+                "name": "Folio",
+                "description": "插画机构，包含从崭露头角的艺术家到行业偶像的作品",
+                "url": "https://folioart.co.uk",
+                "image": "./images/site/folioart.jpg"
+            },
+            {
+                "name": "涂鸦王国",
+                "description": "国内插画平台",
+                "url": "https://www.gracg.com",
+                "image": "./images/site/gracg.jpg"
+            },
+            {
+                "name": "404 Illustrations",
+                "description": "有趣的404插画",
+                "url": "https://www.kapwing.com/404-illustrations",
+                "image": "./images/site/404-illustrations.jpg"
+            },
+            {
+                "name": "Pixilart",
+                "description": "在线像素插画艺术平台",
+                "url": "https://www.pixilart.com/",
+                "image": "./images/site/pixilart.jpg"
+            }
+        ]
+    },
+    {
+        "name": "色彩",
+        "icon": "./images/menu/color.svg",
+        "site": [
+            {
+                "name": "ColorDrop",
+                "description": "每组4种颜色",
+                "url": "https://colordrop.io",
+                "image": "./images/site/colordrop.png"
+            },
+            {
+                "name": "中国色",
+                "description": "中国传统色",
+                "url": "http://zhongguose.com",
+                "image": "./images/site/zhonguose.jpg"
+            },
+            {
+                "name": "Nippon Colors",
+                "description": "日本传统色",
+                "url": "https://nipponcolors.com",
+                "image": "./images/site/nippon-colors.jpg"
+            },
+            {
+                "name": "WebGradients",
+                "description": "优美的渐变色",
+                "url": "https://webgradients.com",
+                "image": "./images/site/webgradients.jpg"
+            },
+            {
+                "name": "Color Claim",
+                "description": "颜值很高的色彩网站",
+                "url": "https://vanschneider.com/colors",
+                "image": "./images/site/color-claim.jpg"
+            },
+            {
+                "name": "Picular",
+                "description": "可通过关键词搜索对应配色",
+                "url": "https://picular.co/",
+                "image": "./images/site/picular.png"
+            },
+            {
+                "name": "Grabient",
+                "description": "渐变色网站，支持在每组渐变色上调节色值、颜色位置、渐变角度和添加颜色",
+                "url": "https://www.grabient.com/",
+                "image": "./images/site/grabient.png"
+            },
+            {
+                "name": "CoolHue",
+                "description": "漂亮的渐变色网站",
+                "url": "https://webkul.github.io/coolhue/",
+                "image": "./images/site/coolhue.png"
+            },
+            {
+                "name": "ColorSpace",
+                "description": "功能强大的配色网站，输入一个颜色，自动生成不同应用场景的配色",
+                "url": "https://mycolor.space/",
+                "image": "./images/site/colorspace.png"
+            },
+            {
+                "name": "BrandColors",
+                "description": "各大公司品牌色",
+                "url": "https://brandcolors.net/",
+                "image": "./images/site/brandcolors.png"
+            },
+            {
+                "name": "Mesh Gradients",
+                "description": "不规则渐变",
+                "url": "https://products.ls.graphics/mesh-gradients/",
+                "image": "./images/site/mesh-gradients.png"
+            },
+            {
+                "name": "Flatcolorpicker",
+                "description": "按色系分类的颜色，支持多种色彩模式",
+                "url": "https://www.flatuicolorpicker.com/",
+                "image": "./images/site/flatuicolorpicker.png"
+            },
+            {
+                "name": "Open Color",
+                "description": "13个色系，每种色系分10个明度",
+                "url": "https://yeun.github.io/open-color/",
+                "image": "./images/site/opencolor.png"
+            },
+            {
+                "name": "ColorBox",
+                "description": "自动生成色彩梯度",
+                "url": "https://colorbox.io/",
+                "image": "./images/site/colorbox.png"
+            },
+            {
+                "name": "Color Leap",
+                "description": "复古配色网站",
+                "url": "https://colorleap.app/home",
+                "image": "./images/site/colorleap.png"
+            },
+	    {
+                "name": "Color.review",
+                "description": "检查颜色对比度是否符合要求",
+                "url": "https://color.review/",
+                "image": ""
+            },
+            {
+                "name": "KaKa",
+                "description": "四色色板、渐变色、阶梯色",
+                "url": "https://afterwork-design.github.io/color-card/",
+                "image": "./images/site/kaka.png"
+            }
+        ]
+    },
+    {
+        "name": "图片视频",
+        "icon": "./images/menu/picture.svg",
+        "site": [
+            {
+                "name": "Unsplash",
+                "description": "免费，由世界各地创作者提供的高质量图片",
+                "url": "https://unsplash.com",
+                "image": "./images/site/unsplash.jpg"
+            },
+            {
+                "name": "Pexels",
+                "description": "免费，包括图片和视频",
+                "url": "https://www.pexels.com",
+                "image": "./images/site/pexels.jpg"
+            },
+            {
+                "name": "Pixabay",
+                "description": "免费，超过 250 万张高质量的作品，包括图片、视频和音乐",
+                "url": "https://pixabay.com",
+                "image": "./images/site/pixabay.jpg"
+            },
+            {
+                "name": "SplitShire",
+                "description": "免费，精美独特的图片库",
+                "url": "https://www.splitshire.com",
+                "image": "./images/site/splitshire.jpg"
+            },
+            {
+                "name": "StolSnap",
+                "description": "免费，每天都更新图片",
+                "url": "https://stocksnap.io",
+                "image": "./images/site/stocksnap.jpg"
+            },
+            {
+                "name": "IMGBIN",
+                "description": "免费，由设计师创建的数百万个透明 PNG 文件",
+                "url": "https://imgbin.com",
+                "image": "./images/site/imgbin.jpg"
+            },
+            {
+                "name": "Hippopx",
+                "description": "免费，各种摄影作品",
+                "url": "https://www.hippopx.com",
+                "image": "./images/site/hippopx.jpg"
+            },
+            {
+                "name": "RESHOT",
+                "description": "免费图标、插图和照片，可商用",
+                "url": "https://www.reshot.com/",
+                "image": "./images/site/reshot.png"
+            },
+            {
+                "name": "POND5",
+                "description": "公共领域，有图片，音乐，模型等数千个历史媒体文件",
+                "url": "https://www.pond5.com/public-domain",
+                "image": "./images/site/pond5.png"
+            },
+            {
+                "name": "Streetwill",
+                "description": "免费高质量优质图片",
+                "url": "http://streetwill.co",
+                "image": "./images/site/streetwill.png"
+            },
+            {
+                "name": "ISO",
+                "description": "数以千计的免费高分辨率 Stock CC0 图片和视频",
+                "url": "https://isorepublic.com/",
+                "image": "./images/site/iso.png"
+            },
+            {
+                "name": "PR模板网",
+                "description": "Premiere 模板素材等资源下载网站",
+                "url": "https://prmuban.com",
+                "image": "./images/site/premiere.png"
+            }
+        ]
+    },
+    {
+        "name": "阅读",
+        "icon": "./images/menu/book.svg",
+        "site": [
+            {
+                "name": "Medium",
+                "description": "国外的优质博客平台",
+                "url": "https://medium.com",
+                "image": "./images/site/medium.jpg"
+            },
+            {
+                "name": "SaltTiger",
+                "description": "每天一本编程书，每天进步一点点",
+                "url": "https://salttiger.com",
+                "image": "./castalia-s.png"
+            },
+            {
+                "name": "微信读书",
+                "description": "支持多平台的免费读书软件",
+                "url": "https://weread.qq.com",
+                "image": "./images/site/weread.png"
+            },
+            {
+                "name": "NN Group",
+                "description": "传播专业的用户体验知识",
+                "url": "https://www.nngroup.com",
+                "image": "./images/site/nng.jpg"
+            },
+            {
+                "name": "Sidebar",
+                "description": "每日更新最佳设计链接",
+                "url": "https://sidebar.io",
+                "image": "./images/site/sidebar.png"
+            },
+            {
+                "name": "Panda",
+                "description": "资讯合集",
+                "url": "https://app.usepanda.com/#/",
+                "image": "./images/site/panda.png"
+            },
+            {
+                "name": "JELLY DESIGN",
+                "description": "京东零售官方设计共享平台",
+                "url": "https://jelly.jd.com/",
+                "image": "./images/site/jellydesign.png"
+            },
+            {
+                "name": "Tencent ISUX",
+                "description": "腾讯社交用户体验设计",
+                "url": "https://isux.tencent.com/",
+                "image": "./images/site/isux.png"
+            }
+        ]
+    },
+    {
+        "name": "工具",
+        "icon": "./images/menu/tool.svg",
+        "site": [
+            {
+                "name": "TinyPNG",
+                "description": "高质量图片压缩网站",
+                "url": "https://tinypng.com",
+                "image": "./images/site/tinypng.jpg"
+            },
+            {
+                "name": "docsmall",
+                "description": "在线免费图片、PDF压缩工具",
+                "url": "https://docsmall.com",
+                "image": "./images/site/docsmall.jpg"
+            },
+            {
+                "name": "Canva",
+                "description": "提供优质模板，快速制作各种封面",
+                "url": "https://www.canva.cn",
+                "image": "./images/site/canva.jpg"
+            },
+            {
+                "name": "Polarr",
+                "description": "功能强大的修图工具",
+                "url": "https://photoeditor.polarr.com",
+                "image": "./images/site/polarr.jpg"
+            },
+            {
+                "name": "Contrast Ratio",
+                "description": "轻松计算色彩对比度，帮助通过WCAG",
+                "url": "https://contrast-ratio.com",
+                "image": "./images/site/contrast-ratio.jpg"
+            },
+            {
+                "name": "WeaveSilk",
+                "description": "在线制作酷炫背景",
+                "url": "http://weavesilk.com",
+                "image": "./images/site/weavesilk.jpg"
+            },
+            {
+                "name": "CodePen",
+                "description": "在线代码编辑器和学习环境，包含许多 Web 设计相关资源",
+                "url": "https://codepen.io",
+                "image": "./images/site/codepen.png"
+            },
+            {
+                "name": "即时设计",
+                "description": "可实时协作的专业UI设计工具",
+                "url": "https://js.design",
+                "image": "./images/site/js-design.png"
+            },
+            {
+                "name": "中国地图矢量图",
+                "description": "支持多种数据格式，包括 json、svg 等，区域最小可拆分至区县",
+                "url": "https://datav.aliyun.com/portal/school/atlas/area_selector",
+                "image": "./images/site/datav.png"
+            },
+            {
+                "name": "Excalidraw",
+                "description": "手绘风格的在线白板工具",
+                "url": "https://excalidraw.com/",
+                "image": "./images/site/excalidraw.png"
+            },
+            {
+                "name": "Magic Eraser",
+                "description": "快速消除图片中杂物的在线工具",
+                "url": "https://www.magiceraser.io/",
+                "image": "./images/site/magiceraser.png"
+            },
+            {
+                "name": "Screen Guru",
+                "description": "在线截图美化工具，输入 URL, 生成干净的浏览器模型",
+                "url": "https://screen.guru",
+                "image": "./images/site/screen-guru.png"
+            },
+            {
+                "name": "FabPic",
+                "description": "在线截图美化工具",
+                "url": "https://www.fabpic.app",
+                "image": "./images/site/fabpic.png"
+            },
+            {
+                "name": "Screenzy",
+                "description": "在线截图美化工具，支持 URL、本地图片和随机的 Unsplash 图片",
+                "url": "https://screenzy.io/#",
+                "image": "./images/site/screenzy.png"
+            },
+            {
+                "name": "Screely",
+                "description": "将截图生成浏览器模型",
+                "url": "https://www.screely.com/",
+                "image": "./images/site/screely.png"
+            },
+            {
+                "name": "FlowUs 息流",
+                "description": "All in One 知识管理平台",
+                "url": "https://flowus.cn/product",
+                "image": "./images/site/flowus.png"
+            }
+        ]
+    },
+    {
+        "name": "英语学习",
+        "icon": "./images/menu/english.svg",
+        "site": [
+			{
+                "name": "BBC Learning English",
+                "description": "BBC 为世界各地的学习者提供免费的音频、视频和文本材料",
+                "url": "https://www.bbc.co.uk/learningenglish",
+                "image": "./images/site/bbc.png"
+            },
+            {
+                "name": "VOA Learning English",
+                "description": "美国之音 VOA 为全球数百万英语学习者提供的多媒体新闻和信息来源",
+                "url": "https://learningenglish.voanews.com",
+                "image": "./images/site/voa.png"
+            },
+            {
+                "name": "SpeechAce",
+                "description": "口语学习网站",
+                "url": "https://www.vocabulary.com",
+                "image": "./images/site/speechace.png"
+            },
+            {
+                "name": "Vocabulary",
+                "description": "词汇学习网站",
+                "url": "https://www.vocabulary.com",
+                "image": "./images/site/vocabulary.png"
+            },
+            {
+                "name": "English Vocabulary Test",
+                "description": "词汇量测试网站",
+                "url": "https://preply.com/en/learn/english/test-your-vocab",
+                "image": "./images/site/preply.png"
+            },
+            {
+                "name": "QuillBot",
+                "description": "写作辅助",
+                "url": "https://quillbot.com",
+                "image": "./images/site/quillbot.png"
+            },
+            {
+                "name": "Grammarly",
+                "description": "写作辅助",
+                "url": "https://www.grammarly.com",
+                "image": "./images/site/grammarly.png"
+            },
+            {
+                "name": "ESLnotes",
+                "description": "英语学习者电影指南",
+                "url": "https://www.eslnotes.com",
+                "image": "./images/site/eslnotes.png"
+            },
+            {
+                "name": "DeepL",
+                "description": "翻译器",
+                "url": "https://www.deepl.com/translator",
+                "image": "./images/site/deepl.png"
+            },
+            {
+                "name": "Online Etymology Dictionary",
+                "description": "在线词源词典",
+                "url": "https://www.etymonline.com",
+                "image": "./images/site/etymonline.png"
+            }
+        ]
+    },
+    {
+        "name": "网页设计",
+        "icon": "./images/menu/web-design.svg",
+        "site": [
+            {
+                "name": "Glassmorphism Generator",
+                "description": "在线调节生成磨砂玻璃效果，可直接复制CSS",
+                "url": "https://hype4.academy/tools/glassmorphism-generator",
+                "image": "./images/site/glassmorphism.png"
+            },
+            {
+                "name": "Neumorphism",
+                "description": "在线调节生成新拟态效果，自动生成CSS",
+                "url": "https://neumorphism.io/#e0e0e0",
+                "image": "./images/site/neumorphism.png"
+            },
+            {
+                "name": "Animate CSS",
+                "description": "一个开源的 css 动画库",
+                "url": "https://animate.style/",
+                "image": "./images/site/animate-css.jpg"
+            },
+            {
+                "name": "Uiverse",
+                "description": "按钮样式库，也包含复选框、开关、卡片等样式",
+                "url": "https://uiverse.io/",
+                "image": "./images/site/uiverse.jpg"
+            },
+            {
+                "name": "useAnimations",
+                "description": "图标按钮动效",
+                "url": "https://useanimations.com/index.html#explore",
+                "image": "./images/site/useanimations.png"
+            },
+            {
+                "name": "Defensive CSS",
+                "description": "实用的 CSS 和设计技巧",
+                "url": "https://defensivecss.dev/",
+                "image": "./images/site/defensivecss.png"
+            },
+	    {
+	       "name": "Landingfolio",
+	       "description": "Landing Page 设计灵感集",
+	       "url": "https://www.landingfolio.com/",
+	       "image": "./images/site/landingfolio.svg"
+	    },
+	    {
+	       "name": "Best Design Portfolio",
+	       "description": "设计作品集",
+	       "url": "https://pafolios.com/",
+	       "image": "./images/site/pafolios.svg"
+	    },
+	    {
+	       "name": "Framer Marketplace",
+	       "description": "来自 Framer 社区的最佳网站设计资源",
+	       "url": "https://www.framer.com/marketplace/",
+	       "image": "./images/site/framer.svg"
+	    },
+	    {
+	       "name": "CallToInspiration",
+	       "description": "UI/UX 设计资源",
+	       "url": "https://calltoinspiration.com/",
+	       "image": "./images/site/calltoinspiration.png"
+	    },
+	    {
+	       "name": "美叶",
+	       "description": "UI、插画、运营、字体、标志、截屏、咒语灵感集",
+	       "url": "https://www.meiye.art/",
+	       "image": "./images/site/meiye.svg"
+	    }
+        ]
+    },
+    {
+        "name": "个人网站",
+        "icon": "./images/menu/personal-website.svg",
+        "site": [
+            {
+                "name": "Itsacat",
+                "description": "葡萄牙插画师，擅长处理图形和色彩，制作有趣动画",
+                "url": "https://itsacatstudio.com",
+                "image": "./images/site/itsacats.jpg"
+            },
+            {
+                "name": "Pengfei Wang",
+                "description": "程序员",
+                "url": "https://pengfeixc.com",
+                "image": "./images/site/pengfeiw.jpg"
+            },
+            {
+                "name": "Alice Lee",
+                "description": "独立插画师",
+                "url": "https://www.byalicelee.com",
+                "image": "./images/site/alice-lee.jpg"
+            },
+            {
+                "name": "Chloe Takahashi",
+                "description": "日本插画师",
+                "url": "https://chloetakahashi.net",
+                "image": "./images/site/chloe-takahashi.jpg"
+            },
+            {
+                "name": "Tang Weijuan",
+                "description": "设计师",
+                "url": "https://tangweijuan.com",
+                "image": "./images/site/tangweijuan.jpg"
+            }
+        ]
+    },
+    {
+        "name": "Mockup",
+        "icon": "./images/menu/mockup.svg",
+        "site": [
+            {
+                "name": "c.mockup",
+                "description": "用于场景创建的模型系统",
+                "url": "https://mockup.ceacle.com",
+                "image": "./images/site/cmockup.jpg"
+            },
+            {
+                "name": "MockuPhone",
+                "description": "免费，在线生成纯白背景模型效果",
+                "url": "https://mockuphone.com",
+                "image": "./images/site/mockuphone.jpg"
+            },
+            {
+                "name": "Mockups Design",
+                "description": "免费，优质模型下载",
+                "url": "https://mockups-design.com",
+                "image": "./images/site/mockups-design.jpg"
+            }
+        ]
+    },
+    {
+        "name": "设计体系",
+        "icon": "./images/menu/design-system.svg",
+        "site": [
+            {
+                "name": "Ant Design",
+                "description": "企业级产品设计体系",
+                "url": "https://ant.design/index-cn",
+                "image": "./images/site/ant-design.jpg"
+            },
+            {
+                "name": "Element Plus",
+                "description": "基于 Vue 3, 面向设计师和开发者的组件库",
+                "url": "https://element-plus.org/zh-CN",
+                "image": "./images/site/element-plus.jpg"
+            },
+            {
+                "name": "Figma Design Systems",
+                "description": "Figma 设计体系",
+                "url": "https://www.designsystems.com",
+                "image": "./images/site/figma-design-systems.jpg"
+            },
+            {
+                "name": "Material Design",
+                "description": "谷歌设计规范",
+                "url": "https://material.io/design",
+                "image": "./images/site/material-design.jpg"
+            },
+            {
+                "name": "Fluent Design System",
+                "description": "微软设计规范",
+                "url": "https://www.microsoft.com/design/fluent/#",
+                "image": "./images/site/fluent.jpg"
+            },
+            {
+                "name": "Apple Developer",
+                "description": "苹果设计规范",
+                "url": "https://developer.apple.com/design/human-interface-guidelines",
+                "image": "./images/site/apple.jpg"
+            },
+            {
+                "name": "HarmonyOS",
+                "description": "鸿蒙设计规范",
+                "url": "https://developer.harmonyos.com/cn/design",
+                "image": "./images/site/harmonyos.jpg"
+            },
+            {
+                "name": "BrandGuidlines",
+                "description": "真实丰富的品牌指南",
+                "url": "https://www.brandguidelines.net",
+                "image": "./images/site/brandguidelines.png"
+            }
+        ]
+    }
+]

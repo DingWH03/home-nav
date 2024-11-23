@@ -1,0 +1,14 @@
+{
+    "title": "home-nav",
+    "description": "home-nav 是一个简洁高效的网页导航工具，方便快速访问个人网页和常用网站，提升日常工作与学习效率。",
+    "additionalMetaTags": [
+        {
+            "property": "author",
+            "content": "Ding Weihao"
+        },
+        {
+            "property": "keywords",
+            "content": "site navigation,网站导航,快速访问,个人网站,效率工具"
+        }
+    ]
+}
