@@ -1,7 +1,7 @@
 [
     {
         "name": "搜索引擎",
-        "icon": "./images/menu/icon.svg",
+        "icon": "./images/menu/personal-website.svg",
         "site": [
             {
                 "name": "Baidu",
@@ -43,19 +43,19 @@
                 "name": "智谱清言",
                 "description": "适合国人体质的生成式AI。",
                 "url": "https://chatglm.cn/",
-                "image": "./images/site/iconpark.jpg"
+                "image": "./images/site/chatglm.ico"
             },
             {
                 "name": "讯飞星火",
                 "description": "科大讯飞研发的生成式AI。",
                 "url": "https://xinghuo.xfyun.cn/",
-                "image": "./images/site/iconpark.jpg"
+                "image": "./images/site/xunfei.ico"
             },
             {
                 "name": "RawChat公益站点",
                 "description": "免费/付费共享ChatGPT",
                 "url": "https://sharedchat.cn/",
-                "image": "./images/site/iconpark.jpg"
+                "image": "./images/site/openai.png"
             }
         ]
     },
@@ -79,25 +79,25 @@
     },
     {
         "name": "Wallpapers",
-        "icon": "./images/menu/icon.svg",
+        "icon": "./images/menu/picture.svg",
         "site": [
             {
                 "name": "WALLPAPER ABYSS",
                 "description": "免费4K壁纸。",
                 "url": "https://wall.alphacoders.com/",
-                "image": "./images/site/iconpark.jpg"
+                "image": "./images/site/alphacoders.png"
             },
             {
                 "name": "Unsplash",
                 "description": "高质量摄影壁纸。",
                 "url": "https://unsplash.com/",
-                "image": "./images/site/iconpark.jpg"
+                "image": "./images/site/unsplash.png"
             },
             {
                 "name": "Pexels",
                 "description": "免费图片和视频。",
                 "url": "https://www.pexels.com/",
-                "image": "./images/site/iconpark.jpg"
+                "image": "./images/site/pexels.png"
             }
         ]
     },
@@ -109,19 +109,19 @@
                 "name": "Github",
                 "description": "代码仓库与项目托管。",
                 "url": "https://github.com/",
-                "image": "./images/site/iconpark.jpg"
+                "image": "./images/site/github.png"
             },
             {
                 "name": "Gitee",
                 "description": "国内开源代码托管平台。",
                 "url": "https://gitee.com/",
-                "image": "./images/site/iconpark.jpg"
+                "image": "./images/site/gitee.png"
             }
         ]
     },
     {
         "name": "在线工具",
-        "icon": "./images/menu/icon.svg",
+        "icon": "./images/menu/tool.svg",
         "site": [
             {
                 "name": "66字体网",
@@ -133,7 +133,7 @@
     },
     {
         "name": "资源",
-        "icon": "./images/menu/icon.svg",
+        "icon": "./images/menu/color.svg",
         "site": [
             {
                 "name": "icon-icons",
@@ -145,25 +145,25 @@
     },
     {
         "name": "个人网站",
-        "icon": "./images/menu/icon.svg",
+        "icon": "./images/menu/blog.svg",
         "site": [
             {
                 "name": "个人博客",
                 "description": "我的个人博客。",
                 "url": "https://blog.cxhap.top",
-                "image": "./images/site/iconpark.jpg"
+                "image": ""
             },
             {
                 "name": "个人网盘",
                 "description": "我的alist网盘。",
                 "url": "http://ssh.cxhap.top:25611",
-                "image": "./images/site/iconpark.jpg"
+                "image": ""
             },
             {
                 "name": "HomeAssistant",
                 "description": "我的HomeAssistant。",
                 "url": "http://ssh.cxhap.top:8123",
-                "image": "./images/site/iconpark.jpg"
+                "image": ""
             }
         ]
     }

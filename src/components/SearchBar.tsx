@@ -22,6 +22,12 @@ const SearchBar: React.FC<SearchBarProps> = ({ onLocalSearch, onExternalSearch }
     onLocalSearch(query); // 实时触发本地搜索
   };
 
+  const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === "Enter" && searchQuery.trim()) {
+      handleSearch();
+    }
+  };
+
   return (
     <HStack width="100%" padding="10px" bgColor="var(--main-bg-color)" borderBottom="1px solid #e2e8f0">
       <InputGroup>
@@ -29,6 +35,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onLocalSearch, onExternalSearch }
           placeholder="搜索我的收藏或输入关键字进行外部搜索"
           value={searchQuery}
           onChange={handleInputChange}
+          onKeyPress={handleKeyPress} // 添加按键监听事件
         />
         <InputRightElement>
           <Button size="sm" colorScheme="blue" onClick={handleSearch} disabled={!searchQuery.trim()}>
