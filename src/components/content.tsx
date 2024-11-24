@@ -1,4 +1,4 @@
-import { resource, ResourceItem } from "src/server";
+import { Resource, resource, ResourceItem } from "src/server";
 import { Box, HStack, VStack, Text, Image, useToast, Link } from "@chakra-ui/react";
 import ResourcePanel from "./resourcePanel";
 import { RounderBox, H2 } from "src/components/primitives"
@@ -14,10 +14,13 @@ export const MyCollectionContext = React.createContext<{
 });
 
 const Content = () => {
+    const [query, setQuery] = useState<string>(""); // 全局 query 状态
     const [myCollection, setMyCollection] = useState<ResourceItem[]>([]);
-    const [filteredCollection, setFilteredCollection] = useState<ResourceItem[]>([]);
+    const [filteredCollection, setFilteredCollection] = useState<Resource[]>([]);
     const [addResourceModalOpen, setAddResourceModalOpen] = useState<boolean>(false);
     const toast = useToast();
+
+    const panelResource = query ? filteredCollection : resource; // 动态资源列表
 
     const updateMyCollection = () => {
         if (isSupportIndexDB()) {
@@ -25,48 +28,48 @@ const Content = () => {
                 db.readAll(myCollectionTableName).then((res) => {
                     if (res) {
                         setMyCollection(res as ResourceItem[]); // 更新原始数据
-                        if (filteredCollection.length === 0) { // 仅在初始加载时同步
-                            setFilteredCollection(res as ResourceItem[]);
-                        }
+                        setFilteredCollection(res as Resource[]);
                     }
                 });
             });
         }
     };
-    
+
 
     useEffect(() => {
         updateMyCollection();
+
+        // 设置 filteredCollection 初始值为 resource
+        if (resource) {
+            setFilteredCollection(resource); // 初始化显示 resource
+        }
     }, []);
+
+
+
 
     useEffect(() => {
         console.log("Filtered Collection Updated:", filteredCollection);
     }, [filteredCollection]);
-    
 
-    const handleLocalSearch = async (query: string) => {
-        if (isSupportIndexDB()) {
-            const db = await getDb();
-            const allResources = await db.readAll(myCollectionTableName);
+
+    const handleLocalSearch = (query: string) => {
+        setQuery(query); // 更新全局 query 状态
     
-            if (allResources) {
-                const filtered = (allResources as ResourceItem[]).filter((item) =>
-                    item.name.toLowerCase().includes(query.toLowerCase())
-                );
-                setFilteredCollection(filtered);
-            } else {
-                setFilteredCollection([]);
-            }
-        } else {
-            toast({
-                title: "当前浏览器不支持IndexedDB",
-                status: "error",
-                duration: 2000,
-            });
-        }
+        // 遍历每个 Resource，过滤其中的 ResourceItem
+        const filtered = resource.map((res) => {
+            const filteredItems = res.site.filter((item) =>
+                item.name.toLowerCase().includes(query.toLowerCase()) || // 根据 name 匹配
+                (item.description && item.description.toLowerCase().includes(query.toLowerCase())) // 根据 description 匹配
+            );
+            return {
+                ...res,
+                site: filteredItems,
+            };
+        }).filter((res) => res.site.length > 0); // 仅保留包含匹配项的 Resource
+    
+        setFilteredCollection(filtered);
     };
-    
-    
     
 
     const handleExternalSearch = (query: string, engine: "bing" | "google") => {
@@ -182,11 +185,18 @@ const Content = () => {
                     hasDeleteBtn
                     myCollection={myCollection}
                 />
-                {
-                    resource.map((item) => (<ResourcePanel key={item.name} myCollection={myCollection} resource={item} hasDeleteBtn={false} hasCollectBtn />))
-                }
+                {panelResource.map((item) =>
+                    item && item.site ? (
+                        <ResourcePanel
+                            key={item.name}
+                            myCollection={myCollection}
+                            resource={item}
+                            hasDeleteBtn={false}
+                            hasCollectBtn
+                        />
+                    ) : null
+                )}
 
-                
             </VStack>
             <AddResourceDrawer open={addResourceModalOpen} close={() => setAddResourceModalOpen(false)} />
         </MyCollectionContext.Provider>
